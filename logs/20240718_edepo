@@ -1,0 +1,74 @@
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T19:44:23+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T19:47:32+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T19:47:32+07:00"}
+{"level":"warning","msg":"got signal: 0xc0000c2d80, shutting down server ...","time":"2024-07-18T20:10:26+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:10:26+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:10:26+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:10:29+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:10:29+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003022a0, shutting down server ...","time":"2024-07-18T20:10:47+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:10:47+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:10:47+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:10:48+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:10:48+07:00"}
+{"level":"warning","msg":"got signal: 0xc0000d0d80, shutting down server ...","time":"2024-07-18T20:12:01+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:12:01+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:12:01+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:12:03+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:12:03+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-07-18T20:17:31+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:17:31+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:17:31+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:17:34+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:17:34+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-07-18T20:50:41+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:50:41+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:50:41+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:50:44+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:50:44+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-07-18T20:53:05+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:53:05+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:53:05+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:53:08+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:53:08+07:00"}
+{"level":"warning","msg":"got signal: 0xc0000c0d80, shutting down server ...","time":"2024-07-18T20:58:38+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T20:58:38+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T20:58:38+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T20:58:41+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T20:58:41+07:00"}
+{"level":"warning","msg":"got signal: 0xc000302360, shutting down server ...","time":"2024-07-18T21:14:52+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-18T21:14:52+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-18T21:14:52+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-18T21:14:55+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-18T21:14:55+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-07-19T05:47:19+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T05:47:19+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T05:47:19+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-19T05:47:22+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-19T05:47:22+07:00"}
+{"level":"warning","msg":"got signal: 0xc00009a360, shutting down server ...","time":"2024-07-19T06:17:28+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T06:17:28+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T06:17:28+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-19T06:17:31+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-19T06:17:31+07:00"}
+{"level":"warning","msg":"got signal: 0xc00012ed80, shutting down server ...","time":"2024-07-19T06:18:50+07:00"}
+{"level":"error","msg":"context deadline exceeded","time":"2024-07-19T06:18:55+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T06:18:55+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T06:18:55+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-19T06:18:59+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-19T06:18:59+07:00"}
+{"level":"warning","msg":"got signal: 0xc000302360, shutting down server ...","time":"2024-07-19T06:22:19+07:00"}
+{"level":"error","msg":"context deadline exceeded","time":"2024-07-19T06:22:24+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T06:22:24+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T06:22:24+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-19T06:33:06+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-19T06:33:06+07:00"}
+{"level":"warning","msg":"got signal: 0xc00007ade0, shutting down server ...","time":"2024-07-19T06:49:32+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T06:49:32+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T06:49:32+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-07-19T06:49:34+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-07-19T06:49:34+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-07-19T06:53:15+07:00"}
+{"level":"error","msg":"context deadline exceeded","time":"2024-07-19T06:53:20+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-07-19T06:53:20+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-07-19T06:53:20+07:00"}
