@@ -1,0 +1,10 @@
+{"level":"info","msg":"sql database connection postgres success","time":"2024-08-05T14:28:10+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-08-05T14:28:10+07:00"}
+{"level":"warning","msg":"got signal: 0xc0003042a0, shutting down server ...","time":"2024-08-05T15:32:07+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-08-05T15:32:07+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-08-05T15:32:07+07:00"}
+{"level":"info","msg":"sql database connection postgres success","time":"2024-08-05T15:32:10+07:00"}
+{"level":"info","msg":"listen on:8080","time":"2024-08-05T15:32:10+07:00"}
+{"level":"warning","msg":"got signal: 0xc0001123c0, shutting down server ...","time":"2024-08-05T15:34:49+07:00"}
+{"level":"info","msg":"server exiting","time":"2024-08-05T15:34:49+07:00"}
+{"level":"info","msg":"sql database postgres successfuly closed.","time":"2024-08-05T15:34:49+07:00"}

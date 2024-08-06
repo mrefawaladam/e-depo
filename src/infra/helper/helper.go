@@ -1,8 +1,11 @@
 package helper
 
 import (
+	"context"
 	dto "e-depo/src/app/dto/user"
 	"errors"
+	"net/http"
+	"strings"
 	"time"
 
 	"github.com/golang-jwt/jwt"
@@ -10,9 +13,15 @@ import (
 
 var jwtKey = []byte("secret_key")
 
+type ContextKey string
+
 var (
 	ErrInsufficientBalance = errors.New("insufficient balance")
 	ErrUserNotFound        = errors.New("destination user not found")
+)
+
+const (
+	ContextUserKey ContextKey = "user"
 )
 
 // TokenClaims menyimpan klaim JWT
@@ -63,4 +72,32 @@ func VerifyToken(tokenString string) (*TokenClaims, error) {
 	}
 
 	return claims, nil
+}
+
+// RoleCheckMiddleware verifies the user's role from the JWT token
+func RoleCheckMiddleware(requiredRole string) func(next http.Handler) http.Handler {
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			authHeader := r.Header.Get("Authorization")
+			if authHeader == "" {
+				http.Error(w, "Authorization header missing", http.StatusUnauthorized)
+				return
+			}
+
+			tokenString := strings.TrimPrefix(authHeader, "Bearer ")
+			claims, err := VerifyToken(tokenString)
+			if err != nil {
+				http.Error(w, "Invalid token", http.StatusUnauthorized)
+				return
+			}
+
+			if claims.Role != requiredRole {
+				http.Error(w, "Forbidden", http.StatusForbidden)
+				return
+			}
+
+			ctx := context.WithValue(r.Context(), ContextUserKey, claims)
+			next.ServeHTTP(w, r.WithContext(ctx))
+		})
+	}
 }
